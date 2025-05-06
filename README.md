@@ -42,9 +42,19 @@ These experiences allow students and graduates to gain industry-relevant skills,
 
 ---
 
-## 📁 Dataset Description
 
-The telemetry dataset is in **JSON** format and includes data fields such as:
+## 📁 Dataset Info & Description:
+Using a data unification algorithm, the tech team at our client, Daikibo, has converted all telemetry data collected from its 4 factories:
+- Daikibo Factory Meiyo (Tokyo, Japan)
+- Daikibo Factory Seiko (Osaka, Japan)
+- Daikibo Berlin (Berlin, Germany)
+- Daikibo Shenzhen (Shenzhen, China)
+
+Each location has 9 types of machines, sending a message every 10 mins. Daikibo has been collecting this data for one month (May 2021) and they've shared this data in the form of a single JSON file.
+
+
+
+- The telemetry dataset is in **JSON** format and includes data fields such as:
 
 | Field Name      | Description                                  |
 |------------------|----------------------------------------------|
@@ -60,6 +70,8 @@ The telemetry dataset is in **JSON** format and includes data fields such as:
 | Section          | Section within the factory                   |
 | Timestamp        | Date and time of data recording              |
 | Unhealthy        | Calculated field indicating performance issues or risks |
+
+
 
 ---
 
